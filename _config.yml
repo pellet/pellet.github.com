@@ -17,11 +17,11 @@ email: ben.pettit@digimulti.com
 # feedburner:
 #   id: feedburnerid
 
-# google_analytics:
-#   account: UA-XXXXX-X
+google_analytics:
+    account: UA-27422700-1
 
-# github:
-   username: pellet
+github:
+    username: pellet
 
 # disqus:
 #   id: disqusid
