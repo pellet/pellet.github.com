@@ -1,8 +1,8 @@
 ---
 layout: post
-title: First post
+title: Videohog for Mac coming soon...
 tags: [first, post, jekyll, rocks]
-last_updated: 2010-10-07
+last_updated: 2012-05-25
 ---
 
-This is the first post.  It has been updated since the post so has a last_updated value in the frontmatter.
+Videohog is in it's final stages of development for release.  It will provide a way for videos to be downloaded off website's at the maximum speed of your internet connection.
