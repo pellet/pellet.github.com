@@ -1,0 +1,128 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EB697DDF15CB942A00AF959F /* Jekyll Local Server */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EB697DE015CB942A00AF959F /* Build configuration list for PBXAggregateTarget "Jekyll Local Server" */;
+			buildPhases = (
+				EB697DE315CB945700AF959F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Jekyll Local Server";
+			productName = "Jekyll Local Server";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		EB697DB015CB8F8B00AF959F /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
+		EB697DDE15CB900300AF959F /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		EB697D1A15CB823200AF959F = {
+			isa = PBXGroup;
+			children = (
+				EB697DB015CB8F8B00AF959F /* _config.yml */,
+				EB697DDE15CB900300AF959F /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		EB697D1C15CB823200AF959F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = EB697D1F15CB823200AF959F /* Build configuration list for PBXProject "Digimulti Website" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB697D1A15CB823200AF959F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB697DDF15CB942A00AF959F /* Jekyll Local Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB697DE315CB945700AF959F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/Users/eggers/.rvm/gems/ruby-1.9.2-p290/bin:/Users/eggers/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/eggers/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/eggers/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/eggers/Dropbox/software dev/misc:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin\"\nexport GEM_HOME=\"/Users/eggers/.rvm/gems/ruby-1.9.2-p290\"\nexport GEM_PATH=\"/Users/eggers/.rvm/gems/ruby-1.9.2-p290:/Users/eggers/.rvm/gems/ruby-1.9.2-p290@global\"\njekyll --server 1337 --auto";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB697D2115CB823200AF959F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EB697D2215CB823200AF959F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		EB697DE115CB942A00AF959F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB697DE215CB942A00AF959F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB697D1F15CB823200AF959F /* Build configuration list for PBXProject "Digimulti Website" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB697D2115CB823200AF959F /* Debug */,
+				EB697D2215CB823200AF959F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB697DE015CB942A00AF959F /* Build configuration list for PBXAggregateTarget "Jekyll Local Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB697DE115CB942A00AF959F /* Debug */,
+				EB697DE215CB942A00AF959F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB697D1C15CB823200AF959F /* Project object */;
+}
