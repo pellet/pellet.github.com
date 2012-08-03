@@ -1,6 +1,10 @@
 safe: true
-source: ./src
-destination: ./site
+#doesnt work on github
+#source: ./src
+source: ./
+#have to build to _site so the old build doesnt get copied over
+#destination: ./site
+destination: ./_site
 lsi: false
 # standard jekyll configuration
 

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "EB697DDF15CB942A00AF959F"
                BuildableName = "Jekyll Local Server"
                BlueprintName = "Jekyll Local Server"
-               ReferencedContainer = "container:Digimulti Website.xcodeproj">
+               ReferencedContainer = "container:_Digimulti Website.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

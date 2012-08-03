@@ -1,0 +1,170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EB697DDF15CB942A00AF959F /* Jekyll Local Server */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EB697DE015CB942A00AF959F /* Build configuration list for PBXAggregateTarget "Jekyll Local Server" */;
+			buildPhases = (
+				EB697DE315CB945700AF959F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Jekyll Local Server";
+			productName = "Jekyll Local Server";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		EB34B87515CBC24C00DA3CB8 /* _layouts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _layouts; sourceTree = "<group>"; };
+		EB34B87615CBC24C00DA3CB8 /* _posts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _posts; sourceTree = "<group>"; };
+		EB34B87715CBC24C00DA3CB8 /* _sass */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _sass; sourceTree = "<group>"; };
+		EB34B87815CBC24C00DA3CB8 /* 404_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 404_files; sourceTree = "<group>"; };
+		EB34B87915CBC24C00DA3CB8 /* 404.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 404.html; sourceTree = "<group>"; };
+		EB34B87A15CBC24C00DA3CB8 /* about.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = about.md; sourceTree = "<group>"; };
+		EB34B87B15CBC24C00DA3CB8 /* atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atom.xml; sourceTree = "<group>"; };
+		EB34B87C15CBC24C00DA3CB8 /* CC-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CC-LICENSE"; sourceTree = "<group>"; };
+		EB34B87D15CBC24C00DA3CB8 /* CNAME */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CNAME; sourceTree = "<group>"; };
+		EB34B87E15CBC24C00DA3CB8 /* config.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = config.rb; sourceTree = "<group>"; };
+		EB34B87F15CBC24C00DA3CB8 /* config.ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.ru; sourceTree = "<group>"; };
+		EB34B88015CBC24C00DA3CB8 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		EB34B88115CBC24C00DA3CB8 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		EB34B88215CBC24C00DA3CB8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		EB34B88315CBC24C00DA3CB8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EB34B88415CBC24C00DA3CB8 /* MIT-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT-LICENSE"; sourceTree = "<group>"; };
+		EB34B88515CBC24C00DA3CB8 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		EB34B88615CBC24C00DA3CB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		EB34B88715CBC24C00DA3CB8 /* robots.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = robots.txt; sourceTree = "<group>"; };
+		EB34B88815CBC24C00DA3CB8 /* sitemap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sitemap.xml; sourceTree = "<group>"; };
+		EB34B88915CBC24C00DA3CB8 /* stylesheets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stylesheets; sourceTree = "<group>"; };
+		EB697DB015CB8F8B00AF959F /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		EB697D1A15CB823200AF959F = {
+			isa = PBXGroup;
+			children = (
+				EB697DB015CB8F8B00AF959F /* _config.yml */,
+				EB34B87515CBC24C00DA3CB8 /* _layouts */,
+				EB34B87615CBC24C00DA3CB8 /* _posts */,
+				EB34B87715CBC24C00DA3CB8 /* _sass */,
+				EB34B87815CBC24C00DA3CB8 /* 404_files */,
+				EB34B87915CBC24C00DA3CB8 /* 404.html */,
+				EB34B87A15CBC24C00DA3CB8 /* about.md */,
+				EB34B87B15CBC24C00DA3CB8 /* atom.xml */,
+				EB34B87C15CBC24C00DA3CB8 /* CC-LICENSE */,
+				EB34B87D15CBC24C00DA3CB8 /* CNAME */,
+				EB34B87E15CBC24C00DA3CB8 /* config.rb */,
+				EB34B87F15CBC24C00DA3CB8 /* config.ru */,
+				EB34B88015CBC24C00DA3CB8 /* css */,
+				EB34B88115CBC24C00DA3CB8 /* favicon.ico */,
+				EB34B88215CBC24C00DA3CB8 /* images */,
+				EB34B88315CBC24C00DA3CB8 /* index.html */,
+				EB34B88415CBC24C00DA3CB8 /* MIT-LICENSE */,
+				EB34B88515CBC24C00DA3CB8 /* Rakefile */,
+				EB34B88615CBC24C00DA3CB8 /* README.md */,
+				EB34B88715CBC24C00DA3CB8 /* robots.txt */,
+				EB34B88815CBC24C00DA3CB8 /* sitemap.xml */,
+				EB34B88915CBC24C00DA3CB8 /* stylesheets */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		EB697D1C15CB823200AF959F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = EB697D1F15CB823200AF959F /* Build configuration list for PBXProject "_Digimulti Website" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB697D1A15CB823200AF959F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB697DDF15CB942A00AF959F /* Jekyll Local Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB697DE315CB945700AF959F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/Users/eggers/.rvm/gems/ruby-1.9.2-p290/bin:/Users/eggers/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/eggers/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/eggers/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/eggers/Dropbox/software dev/misc:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin\"\nexport GEM_HOME=\"/Users/eggers/.rvm/gems/ruby-1.9.2-p290\"\nexport GEM_PATH=\"/Users/eggers/.rvm/gems/ruby-1.9.2-p290:/Users/eggers/.rvm/gems/ruby-1.9.2-p290@global\"\njekyll --server 1337 --auto";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB697D2115CB823200AF959F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SYMROOT = _build;
+			};
+			name = Debug;
+		};
+		EB697D2215CB823200AF959F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SYMROOT = _build;
+			};
+			name = Release;
+		};
+		EB697DE115CB942A00AF959F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB697DE215CB942A00AF959F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB697D1F15CB823200AF959F /* Build configuration list for PBXProject "_Digimulti Website" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB697D2115CB823200AF959F /* Debug */,
+				EB697D2215CB823200AF959F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB697DE015CB942A00AF959F /* Build configuration list for PBXAggregateTarget "Jekyll Local Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB697DE115CB942A00AF959F /* Debug */,
+				EB697DE215CB942A00AF959F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB697D1C15CB823200AF959F /* Project object */;
+}
