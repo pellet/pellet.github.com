@@ -1,5 +1,7 @@
+safe: true
 source: ./src
 destination: ./site
+lsi: false
 # standard jekyll configuration
 
 permalink: date

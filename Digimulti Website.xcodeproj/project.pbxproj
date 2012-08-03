@@ -21,8 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXFileReference section */
+		EB34B87015CBB0A000DA3CB8 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		EB697DB015CB8F8B00AF959F /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
-		EB697DDE15CB900300AF959F /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -30,7 +30,7 @@
 			isa = PBXGroup;
 			children = (
 				EB697DB015CB8F8B00AF959F /* _config.yml */,
-				EB697DDE15CB900300AF959F /* src */,
+				EB34B87015CBB0A000DA3CB8 /* src */,
 			);
 			sourceTree = "<group>";
 		};
