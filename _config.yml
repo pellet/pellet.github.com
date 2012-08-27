@@ -31,5 +31,5 @@ google_analytics:
 github:
     username: pellet
 
-# disqus:
-#   id: disqusid
+disqus:
+    id: Videohog
