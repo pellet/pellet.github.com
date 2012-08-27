@@ -7,4 +7,4 @@ last_updated: 2012-08-27
 
 The full version has finally arrived to the Mac App Store Wooopeeee!
 Thanks go out to Russia for supplying me with my first paying user :)
-Here is a link to the [full version](http://itunes.apple.com/au/app/videohog/id549732592?mt=12): [http://itunes.apple.com/au/app/videohog/id549732592?mt=12](http://itunes.apple.com/au/app/videohog/id549732592?mt=12)
+Here is a link to the [full version](http://itunes.apple.com/au/app/videohog/id549732592?mt=12): [![appstore link](/images/Mac_App_Store_Badge_US_UK-300x150.png)](http://itunes.apple.com/au/app/videohog/id549732592?mt=12)

@@ -42,6 +42,7 @@
 		EB34B88715CBC24C00DA3CB8 /* robots.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = robots.txt; sourceTree = "<group>"; };
 		EB34B88815CBC24C00DA3CB8 /* sitemap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sitemap.xml; sourceTree = "<group>"; };
 		EB34B88915CBC24C00DA3CB8 /* stylesheets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stylesheets; sourceTree = "<group>"; };
+		EB4B96EF15EBA73700295D63 /* _source_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _source_images; sourceTree = "<group>"; };
 		EB697DB015CB8F8B00AF959F /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +50,7 @@
 		EB697D1A15CB823200AF959F = {
 			isa = PBXGroup;
 			children = (
+				EB4B96EF15EBA73700295D63 /* _source_images */,
 				EB697DB015CB8F8B00AF959F /* _config.yml */,
 				EB34B87515CBC24C00DA3CB8 /* _layouts */,
 				EB34B87615CBC24C00DA3CB8 /* _posts */,
