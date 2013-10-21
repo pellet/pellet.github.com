@@ -15,11 +15,11 @@ description: A description about my blog homepage
 <div id="pages">
   <h2>Pages</h2>
   <ul>
+      <li><a href="http://forum.digimulti.com">Product Support</a></li>
     {% for page in site.html_pages %}
       {% if page.title %}
         <li><a href="{{ page.url }}">{{ page.title }}</a></li>
       {% endif %}
     {% endfor %}
-    <li><a href="http://forum.digimulti.com">Product Support</a></li>
   </ul>
 </div>
