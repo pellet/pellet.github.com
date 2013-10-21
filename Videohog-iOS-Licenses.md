@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static
 title: Videohog iOS Licenses
 tags: [videohog, video, hog, full, version, release, post, apple, ios, video, acceleration, accelerator, download, downloader, manager, movie, tv, youtube, vimeo, metacafe, web, browser]
 last_updated: 2013-10-21
