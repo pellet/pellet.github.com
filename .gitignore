@@ -2,5 +2,5 @@ site
 _sass/.sass-cache
 .sass-cache
 *.DS_Store
-/build/
+/_build/
 /_site/
