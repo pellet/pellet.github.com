@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXFileReference section */
+		EB2E3DE31815E3DE007277CB /* Videohog-iOS-Licenses.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Videohog-iOS-Licenses.md"; sourceTree = "<group>"; };
 		EB34B87515CBC24C00DA3CB8 /* _layouts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _layouts; sourceTree = "<group>"; };
 		EB34B87615CBC24C00DA3CB8 /* _posts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _posts; sourceTree = "<group>"; };
 		EB34B87715CBC24C00DA3CB8 /* _sass */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _sass; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 				EB34B87915CBC24C00DA3CB8 /* 404.html */,
 				EB34B87A15CBC24C00DA3CB8 /* about.md */,
 				EB34B87B15CBC24C00DA3CB8 /* atom.xml */,
+				EB2E3DE31815E3DE007277CB /* Videohog-iOS-Licenses.md */,
 				EB34B87C15CBC24C00DA3CB8 /* CC-LICENSE */,
 				EB34B87D15CBC24C00DA3CB8 /* CNAME */,
 				EB34B87E15CBC24C00DA3CB8 /* config.rb */,
