@@ -1,8 +1,9 @@
 ---
-layout: static
+layout: text
 title: Privacy Policy
+sitemap: false
 ---
 
-# Collection of your information
+## Collection of your information
 
-Digimulti PTY LTD does not collect any personal information from any of your use of our Apps. If we have any of your personal information we will not willingly sell or give it to anyone, except if lawfully subpoenaed to produce it and then only after offering you a reasonable chance to challenge such subpoena if allowed by law.
+Digimulti does not collect any personal information from any of your use of our Apps. If we have any of your personal information we will not willingly sell or give it to anyone, except if lawfully subpoenaed to produce it and then only after offering you a reasonable chance to challenge such subpoena if allowed by law.

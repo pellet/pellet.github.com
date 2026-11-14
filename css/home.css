@@ -1,4 +1,4 @@
-/* Styles for the Videohog landing page only; the older pages keep their own stylesheets. */
+/* Styles for the homepage and the privacy policy; the iOS licences page keeps the old stylesheets. */
 
 :root {
   --text: #222;
@@ -128,6 +128,15 @@ h2 {
 
 .features li {
   margin-bottom: 6px;
+}
+
+.text-page h1 {
+  font-size: 2rem;
+  margin: 16px 0 8px;
+}
+
+.text-page p {
+  margin: 0 0 16px;
 }
 
 .site-footer {

@@ -12,20 +12,9 @@ layout: nil
 		<priority>1.0</priority>
   </url>
 
-  {% for page in site.posts %}
-  <url>
-    <loc>http://{{ site.domain }}{{ page.url }}</loc>
-    {% if page.last_updated %}
-    <lastmod>{{ page.last_updated | date: "%Y-%m-%d" }}</lastmod>
-    {% elsif page.date %}
-    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
-    {% else %}
-    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
-    {% endif %}
-  </url>
-  {% endfor %}
-
+  {% comment %}A page whose front matter says sitemap: false, such as the privacy policy, still works but is left out of this list.{% endcomment %}
   {% for page in site.html_pages %}
+  {% unless page.sitemap == false %}
   <url>
     <loc>http://{{ site.domain }}{{ page.url }}</loc>
     {% if page.last_updated %}
@@ -38,6 +27,7 @@ layout: nil
     {% if page.changefreq %}<changefreq>{{ page.changefreq }}</changefreq>{% endif %}
     {% if page.priority %}<priority>{{ page.priority }}</priority>{% endif %}
   </url>
+  {% endunless %}
   {% endfor %}
 
 </urlset>

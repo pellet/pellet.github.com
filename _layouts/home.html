@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
+    {% comment %}On every page except the homepage, the browser tab shows the site name after the page title.{% endcomment %}
+    <title>{{ page.title }}{% unless page.url == "/" %} - {{ site.title }}{% endunless %}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <link rel="canonical" href="https://{{ site.domain }}/">
+    <link rel="canonical" href="https://{{ site.domain }}{{ page.url }}">
     <link rel="stylesheet" href="/css/home.css">
   </head>
   <body>
@@ -19,9 +20,6 @@
       <footer class="site-footer">
         <nav aria-label="Site links">
           <a href="http://forum.digimulti.com">Support forum</a>
-          <a href="/about.html">About</a>
-          <a href="/privacy_policy.html">Privacy policy</a>
-          <a href="/news.html">News archive</a>
         </nav>
       </footer>
     </div>
