@@ -1,0 +1,15 @@
+---
+layout: default
+title: News archive
+description: Digimulti news posts from 2012 and 2013.
+---
+
+<div id="posts">
+  <p>These posts are from 2012 and 2013 and are kept for the record. Some describe apps, versions and prices that have since changed.</p>
+  <ul>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <p><a href="/">Back to Videohog</a></p>
+</div>

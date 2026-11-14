@@ -1,0 +1,144 @@
+/* Styles for the Videohog landing page only; the older pages keep their own stylesheets. */
+
+:root {
+  --text: #222;
+  --muted: #5c5c5c;
+  --link: #7a2a14;
+  --background: #fbf8f3;
+  --rule: #e4ddd2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+/* The page is a single centred column with a 16 pixel gutter, so it fits a phone screen without sideways scrolling. */
+.page {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+a {
+  color: var(--link);
+}
+
+.site-header {
+  padding: 20px 0 8px;
+}
+
+.site-name {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* The logo sits beside the product name; the image file is larger than shown so it stays sharp on high-density screens. */
+.product {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 16px 0 10px;
+}
+
+.product img {
+  flex: none;
+  width: 72px;
+  height: 72px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.intro .tagline {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 10px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 32px 0 8px;
+}
+
+.intro p {
+  margin: 0 0 24px;
+  font-size: 1.1rem;
+}
+
+.screenshot {
+  margin: 28px 0 0;
+}
+
+.screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+
+.screenshot figcaption {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+
+/* Both badges share one height and keep their own proportions, and the gap is wider than Apple's minimum clear space of a quarter of the badge height. */
+.stores {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.store-badge {
+  display: inline-block;
+  line-height: 0;
+}
+
+.store-badge img {
+  height: 52px;
+  width: auto;
+}
+
+.pricing {
+  margin: 16px 0 0;
+}
+
+.features ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.features li {
+  margin-bottom: 6px;
+}
+
+.site-footer {
+  margin-top: 48px;
+  padding: 16px 0 32px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.95rem;
+}
+
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}

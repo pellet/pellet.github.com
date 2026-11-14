@@ -1,25 +1,58 @@
 ---
-layout: default
-description: A description about my blog homepage
+layout: home
+title: Videohog for Mac and Windows - Digimulti
+description: Videohog downloads a video over several connections at once and lets you start watching it before the download finishes. For Mac and Windows.
 ---
 
-<div id="posts">
-  <h2>Blog Posts</h2>
-  <ul>
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+{% comment %}
+The logo is the icon the Windows app shows in the taskbar, copied unchanged from the app's package assets.
+{% endcomment %}
+<section class="intro">
+  <div class="product">
+    <img src="/images/videohog-logo.png" width="256" height="256" alt="Videohog logo">
+    <h1>Videohog</h1>
+  </div>
+  <p class="tagline">Faster video downloads. Start watching straight away.</p>
+  <p>Videohog downloads a video over several connections at once. You can open it in a player such as VLC while the rest of the file is still coming down.</p>
+</section>
 
-<div id="pages">
-  <h2>Pages</h2>
+{% comment %}
+Apple's guidelines put the App Store badge first when other stores' badges sit beside it, and ask for the black badge in that case.
+Both badges are loaded from Apple's and Microsoft's own servers, so they follow any change to the official artwork.
+The Microsoft link is the static badge snippet from apps.microsoft.com/badge; its cid value lets Partner Center report installs that started on this page.
+{% endcomment %}
+<section class="stores" aria-label="Download">
+  <a class="store-badge" href="https://apps.apple.com/app/videohog-lite/id550060306">
+    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-mac-app-store/black/en-us"
+         width="156" height="40" alt="Download Videohog Lite on the Mac App Store">
+  </a>
+  <a class="store-badge" href="https://apps.microsoft.com/detail/9P2TKQPJNLBS?referrer=appbadge&amp;cid=digimulti-homepage&amp;mode=full" target="_blank" rel="noopener noreferrer">
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg"
+         width="161" height="44" alt="Download Videohog from the Microsoft Store">
+  </a>
+</section>
+{% comment %}
+The Mac App Store lists the free app as "Videohog Lite" and the Microsoft Store lists it as "Videohog", so this line names both.
+The upgrade is called "Videohog Transfer Speed Upgrade" on the Mac and "Speed upgrade" on Windows, so the page describes it in plain words instead of using either name.
+{% endcomment %}
+<p class="pricing">Free to download: Videohog Lite on the Mac, Videohog on Windows. Free transfers drop to 3 connections after the first minute; a one-time speed upgrade, bought inside the app, keeps more connections open for the whole transfer.</p>
+
+{% comment %}
+This screenshot is a copy of the one on the Videohog listing in the Microsoft Store, taken on 14 November 2026.
+{% endcomment %}
+<figure class="screenshot">
+  <img src="/images/videohog-windows-downloading.jpg"
+       width="1982" height="1378"
+       alt="Videohog for Windows after downloading a video, with Watch now and Watch in VLC buttons and the live speed graph.">
+  <figcaption>Videohog for Windows, with the live speed graph.</figcaption>
+</figure>
+
+<section class="features">
+  <h2>What it does</h2>
   <ul>
-      <li><a href="http://forum.digimulti.com">Product Support</a></li>
-    {% for page in site.html_pages %}
-      {% if page.title %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-      {% endif %}
-    {% endfor %}
+    <li>Downloads each video over several connections at once, which can make large downloads faster.</li>
+    <li>Opens supported videos, such as MP4, in a player such as VLC before the download finishes.</li>
+    <li>Lets you choose how many connections to use and how large each section is.</li>
+    <li>On Windows, it also has its own player, a browser tab that finds the videos on a page, a live speed graph, and resumes partial downloads.</li>
   </ul>
-</div>
+</section>
