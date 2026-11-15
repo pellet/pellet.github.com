@@ -34,7 +34,7 @@ On Windows:
 
 ## The speed upgrade
 
-Every free transfer starts at full speed and then continues on 3 connections. The one-time speed upgrade, bought inside the app, keeps more connections open for the whole transfer.
+In Videohog Lite for Mac, Low uses 2 connections and Medium (the default) uses 3 throughout each transfer. High, Extreme and Advanced settings above 3 connections have a 20-second turbo period, then ramp down to 3 connections. The one-time speed upgrade, bought inside the app, lets those higher connection settings continue for the whole transfer.
 
 If you bought the upgrade and Videohog does not show it, email [support@digimulti.com](mailto:support@digimulti.com) and we will sort it out.
 
